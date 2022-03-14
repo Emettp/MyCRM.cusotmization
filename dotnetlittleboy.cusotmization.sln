@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRMSample.cusotmization", "dotnetlittleboy.cusotmization\CRMSample.cusotmization.csproj", "{A7ECEE2A-0339-47E9-AF8B-BFB9AC91E464}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "dnlb.common", "dnlb.common\dnlb.common.shproj", "{23D497C5-7962-41D8-9883-A771C0670D5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugins.UnitTest", "Plugins.UnitTest\Plugins.UnitTest.csproj", "{A250AB68-4E31-4CEC-98AD-576EDF7C5B31}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		dnlb.common\dnlb.common.projitems*{23d497c5-7962-41d8-9883-a771c0670d5f}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7ECEE2A-0339-47E9-AF8B-BFB9AC91E464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7ECEE2A-0339-47E9-AF8B-BFB9AC91E464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7ECEE2A-0339-47E9-AF8B-BFB9AC91E464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7ECEE2A-0339-47E9-AF8B-BFB9AC91E464}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A250AB68-4E31-4CEC-98AD-576EDF7C5B31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A250AB68-4E31-4CEC-98AD-576EDF7C5B31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A250AB68-4E31-4CEC-98AD-576EDF7C5B31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A250AB68-4E31-4CEC-98AD-576EDF7C5B31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FEDD781F-B6E7-43C1-8C78-E2B5F7D8D5F5}
+	EndGlobalSection
+EndGlobal
